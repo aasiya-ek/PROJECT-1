@@ -6,7 +6,7 @@
         .then((data) => data);
       console.log(data);
       data.then((data) => {
-        data.splice(0, 14).forEach((coin) => {
+        data.splice(0,8).forEach((coin) => {
           const card = document.createElement("div");
           card.className = "card";
           card.innerHTML = `
