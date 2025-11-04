@@ -13,13 +13,11 @@
   margin-right: 10px;
 }
 
-
 ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
   padding: 20px;
-  
 }
 li {
   font-weight: 900;
@@ -45,7 +43,7 @@ header {
   margin: 10px 20px;
 }
 
- .container {
+.container {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 cards in one row */
   gap: 20px;
